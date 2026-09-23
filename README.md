@@ -45,7 +45,7 @@ https://lnkd.in/p/g5biha3M
 
 ### 🌐 Java Project Board
 
-TaskTrack also contains a public **Java Project Board** where students can showcase their deployed projects.
+TaskTrack also includes a public **Java Project Board** where students can showcase their deployed Java projects.
 
 Users can share:
 
@@ -113,7 +113,6 @@ src/main/java/com/mehedi/tasktrack/
 │   └── ProjectSubmissionRepository.java
 │
 └── TasktrackApplication.java
-
 
 src/main/resources/
 │
