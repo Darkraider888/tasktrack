@@ -1,3 +1,4 @@
+````markdown
 # ✅ TaskTrack
 
 **TaskTrack** is a Java-based task management and student project showcase application built with **Spring Boot**, **MongoDB Atlas**, **Thymeleaf**, and **Bootstrap**.
@@ -122,3 +123,134 @@ src/main/resources/
 │   └── projects.html
 │
 └── application.properties
+````
+
+---
+
+## 🔄 CRUD Operations
+
+TaskTrack demonstrates the four main database operations:
+
+| Operation | Feature               |
+| --------- | --------------------- |
+| Create    | Add a new task        |
+| Read      | View stored tasks     |
+| Update    | Edit task information |
+| Delete    | Remove a task         |
+
+The Java Project Board also supports creating, viewing, editing, and deleting project submissions.
+
+---
+
+## ☁️ MongoDB Atlas
+
+The application stores data using **MongoDB Atlas**.
+
+The main collections are:
+
+```text
+tasks
+project_submissions
+```
+
+The MongoDB connection string is stored securely using an environment variable:
+
+```properties
+spring.mongodb.uri=${MONGODB_URI}
+```
+
+Database credentials are not stored in the GitHub repository.
+
+---
+
+## 🐳 Docker Deployment
+
+The application is containerized using Docker.
+
+The deployment process:
+
+1. Build the Spring Boot project
+2. Generate the executable JAR file
+3. Create the production Docker container
+4. Deploy the container to Render
+5. Connect the application to MongoDB Atlas
+
+---
+
+## 🚀 Deployment
+
+TaskTrack is deployed on **Render**.
+
+### Live Application
+
+[https://tasktrack-r7u7.onrender.com/](https://tasktrack-r7u7.onrender.com/)
+
+### Main Dashboard
+
+```text
+/
+```
+
+### Java Project Board
+
+```text
+/projects
+```
+
+---
+
+## 🤖 AI-Assisted Development
+
+AI-assisted development was used throughout the project for:
+
+* Project planning
+* Spring Boot development
+* Debugging
+* UI improvements
+* MongoDB configuration
+* Docker configuration
+* Deployment preparation
+
+---
+
+## 🎯 What I Learned
+
+Through this project, I practiced:
+
+* Java web application development
+* Spring Boot MVC architecture
+* MongoDB CRUD operations
+* MongoDB Atlas integration
+* Thymeleaf frontend development
+* Java Streams and lambda expressions
+* Form handling
+* Search and filtering
+* Environment variables
+* Docker containerization
+* Render cloud deployment
+* GitHub project management
+
+---
+
+## 👨‍💻 Developer
+
+**Mehedi**
+CSE Undergraduate
+
+GitHub:
+[https://github.com/Darkraider888](https://github.com/Darkraider888)
+
+---
+
+## 🔗 Project Links
+
+* 🌐 Live App: [https://tasktrack-r7u7.onrender.com/](https://tasktrack-r7u7.onrender.com/)
+* 💻 GitHub Repository: [https://github.com/Darkraider888/tasktrack](https://github.com/Darkraider888/tasktrack)
+* 🔗 LinkedIn Post: [https://lnkd.in/p/g5biha3M](https://lnkd.in/p/g5biha3M)
+
+---
+
+⭐ If you find the project useful, feel free to star the repository.
+
+```
+```
